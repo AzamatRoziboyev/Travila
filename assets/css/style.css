@@ -16,4 +16,13 @@ header .header-left {
     width: 134px;
     height: 40px;
     border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header-left img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+
 }
