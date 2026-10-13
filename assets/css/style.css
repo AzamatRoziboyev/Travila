@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     width: 100%;
     height: 62px;
@@ -12,6 +13,7 @@ header {
     padding: 7px;
     align-items: center;
 }
+
 header .header-left {
     width: 134px;
     height: 40px;
@@ -20,25 +22,29 @@ header .header-left {
     justify-content: space-between;
     align-items: center;
 }
+
 header .header-left img {
     width: 36px;
     height: 36px;
     border-radius: 50%;
 
 }
+
 header .header-orta {
     width: 971px;
     height: 62px;
-    border: 1px solid ;
+    border: 1px solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 header .header-orta a {
     color: black;
     text-decoration: none;
     font-size: 18px;
 }
+
 header .header-right {
     width: 280px;
     height: 55px;
@@ -47,6 +53,7 @@ header .header-right {
     justify-content: space-between;
     align-items: center;
 }
+
 header .header-right .dark {
     width: 62px;
     height: 48px;
@@ -58,6 +65,7 @@ header .header-right .dark {
     justify-content: center;
     border: none;
 }
+
 header .header-right .sign {
     width: 87px;
     height: 50px;
@@ -66,6 +74,7 @@ header .header-right .sign {
     font-size: 20px;
 
 }
+
 header .header-right .div {
     width: 42px;
     height: 42px;
