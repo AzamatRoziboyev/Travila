@@ -66,3 +66,14 @@ header .header-right .sign {
     font-size: 20px;
 
 }
+header .header-right .div {
+    width: 42px;
+    height: 42px;
+    background-color: #FEFA17;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 4px;
+}
