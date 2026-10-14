@@ -89,11 +89,11 @@ header .header-right .div {
     background-size: cover;
     display: flex;
     justify-content: center;
+    padding-top: 15px;
 }
 .main .main-box {
     width: 948px;
     height: 534px;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
 
@@ -101,7 +101,6 @@ header .header-right .div {
 .main .main-box .main-box-left {
     width: 986px;
     height: auto;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -124,7 +123,6 @@ header .header-right .div {
 .main .main-box .img {
     width: 341px;
     height: 534px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     gap: 20px;
