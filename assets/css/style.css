@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     width: 100%;
     height: 62px;
@@ -11,6 +12,7 @@ header {
     padding: 7px;
     align-items: center;
 }
+
 header .header-left {
     width: 134px;
     height: 40px;
@@ -18,12 +20,14 @@ header .header-left {
     justify-content: space-between;
     align-items: center;
 }
+
 header .header-left img {
     width: 36px;
     height: 36px;
     border-radius: 50%;
 
 }
+
 header .header-orta {
     width: 971px;
     height: 62px;
@@ -31,11 +35,13 @@ header .header-orta {
     justify-content: space-between;
     align-items: center;
 }
+
 header .header-orta a {
     color: black;
     text-decoration: none;
     font-size: 18px;
 }
+
 header .header-right {
     width: 280px;
     height: 55px;
@@ -43,6 +49,7 @@ header .header-right {
     justify-content: space-between;
     align-items: center;
 }
+
 header .header-right .dark {
     width: 62px;
     height: 48px;
@@ -55,9 +62,11 @@ header .header-right .dark {
     border: none;
     cursor: pointer;
 }
-header .header-right .dark:active{
+
+header .header-right .dark:active {
     transform: scale(0.9);
 }
+
 header .header-right .sign {
     width: 87px;
     height: 50px;
@@ -67,6 +76,7 @@ header .header-right .sign {
     cursor: pointer;
 
 }
+
 header .header-right .div {
     width: 42px;
     height: 42px;
@@ -79,6 +89,7 @@ header .header-right .div {
     border-radius: 4px;
     cursor: pointer;
 }
+
 /* *=========== main */
 .main {
     width: 100%;
@@ -91,6 +102,7 @@ header .header-right .div {
     justify-content: center;
     padding-top: 15px;
 }
+
 .main .main-box {
     width: 948px;
     height: 534px;
@@ -98,6 +110,7 @@ header .header-right .div {
     justify-content: space-between;
 
 }
+
 .main .main-box .main-box-left {
     width: 986px;
     height: auto;
@@ -106,6 +119,7 @@ header .header-right .div {
     gap: 10px;
     flex-direction: column;
 }
+
 .main .main-box .main-box-left .world {
     width: 200px;
     height: 52px;
@@ -114,12 +128,15 @@ header .header-right .div {
     border-radius: 50px;
     font-size: 15px;
 }
+
 .main .main-box .main-box-left h2 {
     font-size: 55px;
 }
+
 .main .main-box .main-box-left p {
     font-size: 20px;
 }
+
 .main .main-box .img {
     width: 341px;
     height: 534px;
@@ -128,6 +145,7 @@ header .header-right .div {
     gap: 20px;
     align-items: center;
 }
+
 .main .main-box .img img {
     width: auto;
     height: auto;
@@ -135,7 +153,8 @@ header .header-right .div {
     cursor: pointer;
 
 }
-.main .main-box .img img:hover  {
+
+.main .main-box .img img:hover {
     box-shadow: 1px 1px 5px 2px yellow;
     transform: scale(0.9);
     transition: 0.40s;
