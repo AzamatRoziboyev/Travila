@@ -111,3 +111,9 @@ header .header-right .div {
     border-radius: 50px;
     font-size: 15px;
 }
+.main .main-box .main-box-left h2 {
+    font-size: 55px;
+}
+.main .main-box .main-box-left p {
+    font-size: 20px;
+}
