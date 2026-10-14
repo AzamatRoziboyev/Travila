@@ -122,8 +122,19 @@ header .header-right .div {
     width: 341px;
     height: 534px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 .main .main-box .img img {
     width: auto;
     height: auto;
+    border-radius: 16px;
+
+}
+.main .main-box .img img:hover  {
+    box-shadow: 1px 1px 5px 2px yellow;
+    transform: scale(0.9);
+    transition: 0.40s;
 }
