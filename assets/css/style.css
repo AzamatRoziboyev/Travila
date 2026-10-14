@@ -131,6 +131,7 @@ header .header-right .div {
     width: auto;
     height: auto;
     border-radius: 16px;
+    cursor: pointer;
 
 }
 .main .main-box .img img:hover  {
