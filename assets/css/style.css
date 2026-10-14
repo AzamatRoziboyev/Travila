@@ -88,7 +88,7 @@ header .header-right .div {
     justify-content: center;
 }
 .main .main-box {
-    width: 1248px;
+    width: 948px;
     height: 534px;
     border: 2px solid red;
     display: flex;
@@ -101,6 +101,7 @@ header .header-right .div {
     border: 1px solid black;
     display: flex;
     justify-content: center;
+    gap: 10px;
     flex-direction: column;
 }
 .main .main-box .main-box-left .world {
@@ -116,4 +117,13 @@ header .header-right .div {
 }
 .main .main-box .main-box-left p {
     font-size: 20px;
+}
+.main .main-box .img {
+    width: 341px;
+    height: 534px;
+    border: 1px solid black;
+}
+.main .main-box .img img {
+    width: auto;
+    height: auto;
 }
