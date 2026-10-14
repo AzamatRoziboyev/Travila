@@ -104,5 +104,10 @@ header .header-right .div {
     flex-direction: column;
 }
 .main .main-box .main-box-left .world {
-       
+    width: 200px;
+    height: 52px;
+    background-color: #FEFA17;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
 }
