@@ -91,5 +91,16 @@ header .header-right .div {
     width: 1248px;
     height: 534px;
     border: 2px solid red;
-    
+    display: flex;
+    justify-content: space-between;
+
 }
+.main .main-box .main-box-left {
+    width: 986px;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main .main-box .main-box-left 
