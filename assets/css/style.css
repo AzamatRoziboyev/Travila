@@ -126,6 +126,17 @@ header .header-right .div {
     border: none;
     background-color: transparent;
 }
+.login-katta .login-kichik .label {
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-katta .login-kichik .label {
+    
+}
 /* *=========== main */
 .main {
     width: 100%;
