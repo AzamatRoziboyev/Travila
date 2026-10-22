@@ -89,7 +89,39 @@ header .header-right .div {
     border-radius: 4px;
     cursor: pointer;
 }
+/* !login */
+.login-katta {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-katta .login-kichik {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 
+}
+.login-katta .login-kichik .h2 {
+    width: 250px;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-katta .login-kichik .h2 .close-btn {
+    
+}
 /* *=========== main */
 .main {
     width: 100%;
