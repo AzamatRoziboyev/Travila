@@ -128,14 +128,15 @@ header .header-right .div {
 }
 .login-katta .login-kichik .label {
     width: 250px;
-    height: 50px;
+    height: 55px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.login-katta .login-kichik .label {
-    
+.login-katta .login-kichik .label input {
+    width: 250px;
+    height: 30px;
 }
 /* *=========== main */
 .main {
