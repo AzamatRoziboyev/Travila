@@ -120,7 +120,11 @@ header .header-right .div {
     align-items: center;
 }
 .login-katta .login-kichik .h2 .close-btn {
-    
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
 }
 /* *=========== main */
 .main {
