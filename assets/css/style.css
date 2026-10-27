@@ -380,24 +380,68 @@ header .header-right .div {
     width: 1248px;
     height: 548px;
     border: 2px solid black;
+
 }
 .main2 .main2-box .m2-box-card {
     width: 392px;
     height: 547px;
     border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 32px;
 }
 .main2 .main2-box .m2-box-card .top {
     width: 390px;
     height: 326px;
     border: 1px solid black;
+    background-image: url(/assets/img/1.main2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+
+}
+.main2 .main2-box .m2-box-card .top p {
+    width: 111px;
+    height: 32px;
+    color: orange;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main2 .main2-box .m2-box-card .top span {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50px;
+
 }
 .main2 .main2-box .m2-box-card .batton {
     width: 390px;
     height: 259px;
-    border: 1px solid yellow;
+    background-color: white;
     margin-top: -44px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
 }
 .main2 .main2-box .m2-box-card .batton .p2 {
     font-size: 27px;
@@ -406,7 +450,6 @@ header .header-right .div {
 .main2 .main2-box .m2-box-card .batton .days {
     width: 240px;
     height: 30px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -418,7 +461,6 @@ header .header-right .div {
 .main2 .main2-box .m2-box-card .batton .foter {
     width: 280px;
     height: 45px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -429,4 +471,10 @@ header .header-right .div {
 .main2 .main2-box .m2-box-card .batton .foter p b {
     color: black;
     font-size: 30px;
+}
+.main2 .main2-box .m2-box-card .batton .foter button {
+    width: 104px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
 }
