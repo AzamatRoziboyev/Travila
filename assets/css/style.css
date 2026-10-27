@@ -324,3 +324,56 @@ header .header-right .div {
     border-radius: 50px;
     cursor: pointer;
 }
+/* *==========main2 */
+.main2 {
+    width: 1248px;
+    height: 751px;
+    border: 2px solid red;
+    margin: 150px auto;
+}
+.main2 .our {
+    width: 1248px;
+    height: 108px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.main2 .our .our-left {
+    width: 624px;
+    height: 108px;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+.main2 .our .our-left p {
+    font-size: 55px;
+    font-weight: 800;
+}
+.main2 .our .our-left span {
+    font-size: 20px;
+    color: gray;
+}
+.main2 .our .our-right {
+    width: 550px;
+    height: 108px;
+    border: 2px solid yellow;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    gap: 20px;
+}
+.main2 .our .our-right span {
+    width: 127px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #E4E6E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main2 .our .our-right .s1 {
+    width: 158px;
+    height: 40px;
+}
