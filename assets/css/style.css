@@ -431,6 +431,44 @@ header .header-right .div {
     border-radius: 50px;
 
 }
+/* &top2 */
+.main2 .main2-box .m2-box-card .top2 {
+    width: 390px;
+    height: 326px;
+    border: 1px solid black;
+    background-image: url(/assets/img/2.main3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+
+}
+.main2 .main2-box .m2-box-card .top2 p {
+    width: 111px;
+    height: 32px;
+    color: orange;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main2 .main2-box .m2-box-card .top2 span {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50px;
+
+}
 .main2 .main2-box .m2-box-card .batton {
     width: 390px;
     height: 259px;
