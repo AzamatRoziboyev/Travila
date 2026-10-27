@@ -380,6 +380,8 @@ header .header-right .div {
     width: 1248px;
     height: 548px;
     border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
 
 }
 .main2 .main2-box .m2-box-card {
@@ -390,6 +392,7 @@ header .header-right .div {
     flex-direction: column;
     justify-content: space-between;
     border-radius: 32px;
+
 }
 .main2 .main2-box .m2-box-card .top {
     width: 390px;
