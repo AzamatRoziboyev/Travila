@@ -328,13 +328,14 @@ header .header-right .div {
 .main2 {
     width: 1248px;
     height: 751px;
-    border: 2px solid red;
     margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 .main2 .our {
     width: 1248px;
     height: 108px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
@@ -379,15 +380,14 @@ header .header-right .div {
 .main2 .main2-box {
     width: 1248px;
     height: 548px;
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
 
 }
 .main2 .main2-box .m2-box-card {
-    width: 392px;
+    width: 390px;
     height: 547px;
-    border: 2px solid red;
+    box-shadow: 1px 1px 3px 1px gray;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -397,7 +397,6 @@ header .header-right .div {
 .main2 .main2-box .m2-box-card .top {
     width: 390px;
     height: 326px;
-    border: 1px solid black;
     background-image: url(/assets/img/1.main2.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -435,7 +434,6 @@ header .header-right .div {
 .main2 .main2-box .m2-box-card .top2 {
     width: 390px;
     height: 326px;
-    border: 1px solid black;
     background-image: url(/assets/img/2.main3.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -473,7 +471,6 @@ header .header-right .div {
 .main2 .main2-box .m2-box-card .top3 {
     width: 390px;
     height: 326px;
-    border: 1px solid black;
     background-image: url(/assets/img/3.main2.png);
     background-position: center;
     background-repeat: no-repeat;
