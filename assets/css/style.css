@@ -375,3 +375,58 @@ header .header-right .div {
     width: 158px;
     height: 40px;
 }
+/* &=========box-card */
+.main2 .main2-box {
+    width: 1248px;
+    height: 548px;
+    border: 2px solid black;
+}
+.main2 .main2-box .m2-box-card {
+    width: 392px;
+    height: 547px;
+    border: 2px solid red;
+}
+.main2 .main2-box .m2-box-card .top {
+    width: 390px;
+    height: 326px;
+    border: 1px solid black;
+}
+.main2 .main2-box .m2-box-card .batton {
+    width: 390px;
+    height: 259px;
+    border: 1px solid yellow;
+    margin-top: -44px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.main2 .main2-box .m2-box-card .batton .p2 {
+    font-size: 27px;
+    font-weight: 700;
+}
+.main2 .main2-box .m2-box-card .batton .days {
+    width: 240px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main2 .main2-box .m2-box-card .batton .days small {
+    font-size: 15px;
+    color: gray;
+}
+.main2 .main2-box .m2-box-card .batton .foter {
+    width: 280px;
+    height: 45px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main2 .main2-box .m2-box-card .batton .foter p  {
+    color: gray;
+}
+.main2 .main2-box .m2-box-card .batton .foter p b {
+    color: black;
+    font-size: 30px;
+}
